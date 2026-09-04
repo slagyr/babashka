@@ -37,6 +37,7 @@
    [babashka.impl.datafy :refer [datafy-namespace]]
    [babashka.impl.deps :as deps :refer [deps-namespace]]
    [babashka.impl.edamame :refer [edamame-namespace]]
+   [babashka.impl.fast-edn :refer [fast-edn-namespace]]
    [babashka.impl.error-handler :refer [error-handler]]
    [babashka.impl.features :as features]
    [babashka.impl.ffi :refer [ffi-namespace]]
@@ -487,6 +488,7 @@ Use bb run --help to show this help output.
                                   {'catvec (sci/copy-var catvec
                                                          (sci/create-ns 'clojure.core.rrb-vector))})
        'edamame.core edamame-namespace
+       'fast-edn.core fast-edn-namespace
        'sci.core sci-core-namespace
        'babashka.cli cli/cli-namespace
        'babashka.http-client http-client-namespace

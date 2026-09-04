@@ -386,6 +386,7 @@
           java.io.PushbackReader
           java.io.Reader
           java.io.SequenceInputStream
+          java.io.CharArrayReader
           java.io.StringReader
           java.io.StringWriter
           java.io.Writer
@@ -716,6 +717,8 @@
                 ~(symbol "[Lclojure.core$range;")])
           ~@(when features/yaml? '[org.yaml.snakeyaml.error.YAMLException])
           ~@(when features/hsqldb? '[org.hsqldb.jdbcDriver])
+          fast_edn.EdnParser
+          fast_edn.EdnParser$UnexpectedCharacter
           org.jsoup.Jsoup
           org.jsoup.nodes.Attribute
           org.jsoup.nodes.Attributes

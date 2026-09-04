@@ -30,7 +30,7 @@ As one user described it:
 * **Cross-platform:** supports linux, macOS and Windows
 * **Interop** with commonly used classes (`System`, `File`, `java.time.*`, `java.nio.*`)
 * **Multi-threading** support (`pmap`, `future`)
-* **Batteries included** (tools.cli, cheshire, ...)
+* **Batteries included** (tools.cli, cheshire, fast-edn, ...)
 
 ### Non-goals
 
